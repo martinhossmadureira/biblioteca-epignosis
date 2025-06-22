@@ -858,3 +858,34 @@ footer {
   border-radius: 10px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
+
+.sucesso {
+  text-align: center;
+  padding: 5rem 2rem;
+  background-color: #f5f5ff;
+}
+
+.sucesso h1 {
+  font-size: 2rem;
+  color: #6c63ff;
+  margin-bottom: 1rem;
+}
+
+.sucesso p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.btn-voltar {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  background-color: #6c63ff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.btn-voltar:hover {
+  background-color: #4e47d6;
+}

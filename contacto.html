@@ -40,7 +40,8 @@
     <section class="formulario">
       <h2>Entra em Contacto</h2>
       <p>Se tens perguntas, sugestões, feedback ou desejares propor uma parceria, envia a tua mensagem. Será uma alegria responder.</p>
-      <form action="https://formspree.io/f/xgvylyvv" method="POST">
+      <form name="formulario-contato" method="POST" data-netlify="true" action="sucesso.html">
+        <input type="hidden" name="form-name" value="formulario-contato">
         <input type="text" name="nome" placeholder="Teu nome" required />
         <input type="email" name="email" placeholder="Teu email" required />
         <textarea name="mensagem" placeholder="Tua mensagem" rows="6" required></textarea>
