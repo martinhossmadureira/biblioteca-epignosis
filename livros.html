@@ -1,11 +1,10 @@
-<!-- livros.html – Página com layout melhorado -->
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Livros | Biblioteca Epignósis</title>
-   <meta name="description" content="Descobre livros digitais ungidos para edificação, propósito e crescimento espiritual. Biblioteca Epignósis é um portal de revelação e sabedoria." />
+  <meta name="description" content="Descobre livros digitais ungidos para edificação, propósito e crescimento espiritual. Biblioteca Epignósis é um portal de revelação e sabedoria." />
   <meta name="keywords" content="epignosis, livros cristãos, ebooks ungidos, revelação, fé, propósito eterno, martinho madureira" />
   <meta name="author" content="Martinho S. S. Madureira" />
      <!-- Open Graph -->
@@ -16,30 +15,49 @@
   <meta name="twitter:card" content="summary_large_image" />
   <!-- Favicon -->
   <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon" />
-  <link rel="stylesheet" href="style.css">
-  <script defer src="script.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="icon" href="assets/img/favicon.png" type="image/png">
+  <title>Todos os Livros – Biblioteca Epignósis</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="livros.js"></script>
 </head>
+
 <body>
-  <header class="cabecalho">
-    <h1>📘 Biblioteca Epignósis</h1>
-    <p class="slogan">Explora a Palavra com profundidade e revelação</p>
+  <header class="header">
+    <div class="logo">
+      <img src="assets/img/logo.png" alt="Logotipo Epignósis" />
+      <h1>Biblioteca Epignósis</h1>
+    </div>
+    <nav>
+      <ul class="menu">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="livros.html">Todos os Livros</a></li>
+        <li><a href="sobre.html">Sobre Mim</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="testemunhos.html">Testemunhos</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <section class="filtros">
-    <input type="text" id="searchInput" placeholder="Pesquisar título..." />
-    <div id="letrasFiltro" class="letras-filtro"></div>
-  </section>
+  <main class="livros-main">
+    <section class="filtros">
+      <input type="text" id="pesquisa" placeholder="Pesquisar por título..." />
 
-  <section id="livrosContainer" class="grid-livros"></section>
+      <div class="filtro-categorias" id="categorias"></div>
+      <div class="filtro-letras" id="letras"></div>
+    </section>
 
-  <div class="paginacao" id="paginacaoContainer"></div>
+    <section class="livros-lista" id="lista-livros">
+      <!-- Livros serão carregados dinamicamente via JS -->
+    </section>
+
+    <div class="paginacao" id="paginacao"></div>
+  </main>
+
   <footer>
     <a href="#" class="voltar-topo">🔝 Voltar ao topo</a>
     <p>&copy; 2025 Biblioteca Epignósis. Todos os direitos reservados.</p>
   </footer>
-  <script src="livros.js"></script>
   <script src="versiculo.js"></script>
+
 </body>
+
 </html>
