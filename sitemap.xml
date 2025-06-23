@@ -1,8 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://bibliotecaepignosis.netlify.app/</loc></url>
-  <url><loc>https://bibliotecaepignosis.netlify.app/livros.html</loc></url>
-  <url><loc>https://bibliotecaepignosis.netlify.app/sobre.html</loc></url>
-  <url><loc>https://bibliotecaepignosis.netlify.app/contacto.html</loc></url>
-  <url><loc>https://bibliotecaepignosis.netlify.app/testemunhos.html</loc></url>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://bibliotecaepignosis.netlify.app/</loc>
+  <lastmod>2025-06-23T10:23:59+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://bibliotecaepignosis.netlify.app/livros</loc>
+  <lastmod>2025-06-23T10:23:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://bibliotecaepignosis.netlify.app/sobre</loc>
+  <lastmod>2025-06-23T10:23:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://bibliotecaepignosis.netlify.app/contacto</loc>
+  <lastmod>2025-06-23T10:23:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://bibliotecaepignosis.netlify.app/testemunhos</loc>
+  <lastmod>2025-06-23T10:23:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
 </urlset>
